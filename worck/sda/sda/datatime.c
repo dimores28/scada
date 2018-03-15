@@ -51,4 +51,13 @@ int main()
 
 
 	printf("%d : %d : %d\n", backDay, backMonth, backYear);
+
+	{
+		int i;
+
+		for (i = 0; i < 10; ++i)
+		{
+			printf("%d ", i + 1);
+		}
+	}
 }
